@@ -7,7 +7,7 @@ class PrimeNumber
     public static void Main (String[] args)
     {
       Console.Write("Enter a number: ");
-      double num = Convert.ToDouble(Console.ReadLine());
+      int num = Convert.ToInt32(Console.ReadLine());
       
 // loop over input number num
         for(int i=1; i<=num; i++) {
